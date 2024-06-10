@@ -125,12 +125,12 @@
                   placeholder="Name Surname"
                 />
               </label>
-              <label for="number of guest" class="form__label"
+              <label for="numberofguest" class="form__label"
                 >Number of guests *
                 <input
                   class="form__input"
                   type="number"
-                  id="number of guest"
+                  id="numberofguest"
                   required
                   min="1"
                   max="8"
@@ -138,9 +138,14 @@
                 />
               </label>
 
-              <label for="email" class="form__label"
+              <label for="datetime-local" class="form__label"
                 >Date & time *
-                <input type="datetime-local" required class="form__input" />
+                <input
+                  type="datetime-local"
+                  required
+                  id="datetime-local"
+                  class="form__input"
+                />
               </label>
 
               <label for="email" class="form__label"
@@ -158,8 +163,8 @@
             <button class="form__button">Book a table</button>
 
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" /> I agree with the
-              terms of use
+              <input type="checkbox" id="checkbox" class="form__checkbox" /> I
+              agree with the terms of use
             </label>
           </form>
         </section>
